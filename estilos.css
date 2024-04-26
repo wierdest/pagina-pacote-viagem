@@ -1,0 +1,63 @@
+.container {
+    padding: 20px;
+
+}
+.h1 {
+    text-align: center;
+    margin: 2%;
+}
+
+#section-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nosso-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    background-color: #b2bac4;
+}
+
+.nav-item {
+    width: fit-content;
+    align-self: center;
+}
+
+.card-vertical {
+    margin-top: 80px;
+}
+
+.destaque-preco {
+    color: #ff0000; /* Define a cor do texto como vermelho */
+    font-weight: bold; /* Define o texto em negrito */
+    /* Outros estilos conforme necessário */
+    font-size: xx-large;
+}
+
+.destaque-preco-parcelado {
+    color: #ff0000; /* Define a cor do texto como vermelho */
+    font-weight: bold; /* Define o texto em negrito */
+    /* Outros estilos conforme necessário */
+    font-size: large;
+}
+
+.btn {
+    transition: transform 0.2s ease; 
+
+}
+
+.btn:hover {
+    animation: tremer 0.5s ease;
+
+}
+
+@keyframes tremer {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}

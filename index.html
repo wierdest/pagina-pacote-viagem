@@ -63,7 +63,7 @@
             </li>
             
             <li class="nav-item">
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLogin">
                 Login
               </button>
               
@@ -79,7 +79,7 @@
       </div>
     </nav>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -112,6 +112,35 @@
       </div>
     </div>
 
+    <div class="modal fade" id="modalReserva" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Reserva</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                ...
+              </div>
+              <div class="mb-3">
+                ...
+              </div>
+              <div class="mb-3 form-check">
+               ....
+              </div>
+            
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger">Reservar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <main>
       <section id="section-1">
         <div class="container mt-5">
@@ -123,7 +152,7 @@
                 <p class="card-text"><strong>Preço:</strong> R$ 1.486,00</p> 
                 <p class="card-text"><strong>Parcelamos em <span class="destaque-preco-parcelado">12x de R$ 120,00</span></strong></p>
                 <a href="gramado.html" class="btn btn-primary">Saiba Mais</a>
-                <a href="#" class="btn btn-danger">Reservar</a>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</button>
             </div>
         </div>
       </section>
@@ -146,7 +175,7 @@
                 </p>
                 <p class="card-text">Preço: <span class="destaque-preco">R$ 2.500,00</span> por pessoa</p>
                 <a href="#" class="btn btn-primary">Saiba Mais</a>
-                <a href="#" class="btn btn-danger">Reservar</a>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</button>
               </div>
             </div>
           </div>
@@ -165,7 +194,7 @@
                 </p>
                 <p class="card-text">Preço: <span class="destaque-preco">R$ 2.200,00</span> por pessoa</p>
                 <a href="#" class="btn btn-primary">Saiba Mais</a>
-                <a href="#" class="btn btn-danger">Reservar</a>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</button>
 
               </div>
             </div>
@@ -182,7 +211,7 @@
                   Desfrute de Porto de Galinhas com nosso pacote exclusivo, incluindo passagens aéreas para Recife, traslado, hospedagem em resort à beira-mar, excursões guiadas às piscinas naturais e praias da região, degustação da culinária nordestina e tempo livre para atividades de lazer no resort. 
                 </p>
                 <p class="card-text">Preço: <span class="destaque-preco">R$ 2.800,00</span> por pessoa</p>                <a href="#" class="btn btn-primary">Saiba Mais</a>
-                <a href="#" class="btn btn-danger">Reservar</a>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</button>
               </div>
             </div>
           </div>
@@ -201,8 +230,8 @@
                   <p class="card-text"><strong>Preço:</strong> R$ 1.600,00</p> 
                   <p class="card-text"><strong>Parcelamos em <span class="destaque-preco-parcelado">12x de R$ 130,00</span></strong></p>
                   <a href="#" class="btn btn-primary">Saiba Mais</a>
-                  <a href="#" class="btn btn-danger">Reservar</a>
-              </div>
+                  <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</button>
+                </div>
           </div>
       </section>
     
